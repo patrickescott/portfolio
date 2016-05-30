@@ -12,3 +12,9 @@ body {
   width: 20px;
   display: inline;
   float: right; }
+
+#twitter {
+  padding-top: 3px; }
+
+.btn {
+  margin-bottom: 20px; }
