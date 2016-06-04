@@ -24,5 +24,6 @@ body {
 #myPic {
   margin-bottom: 10px; }
 
-#menu {
-  background-color: lightblue; }
+.well {
+  background-color: #deebf7;
+  border: 1px solid black; }
