@@ -1,5 +1,6 @@
 body {
-  font-family: "PT Sans", sans-serif; }
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px; }
 
 #oscars {
   width: 100%;
@@ -22,3 +23,6 @@ body {
 
 #myPic {
   margin-bottom: 10px; }
+
+#menu {
+  background-color: lightblue; }
