@@ -4,7 +4,11 @@ body {
   line-height: 30px; }
 
 h1, h2 {
-  text-align: center; }
+  text-align: center;
+  font-family: "Playfair Display", serif; }
+
+p {
+  margin-bottom: 25px; }
 
 #oscars {
   width: 100%;
@@ -26,3 +30,8 @@ h1, h2 {
 
 #myPic {
   margin-bottom: 10px; }
+
+.footer {
+  background-color: black; }
+  .footer p {
+    color: white; }
