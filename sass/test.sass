@@ -3,19 +3,21 @@ $head-font: "Playfair Display"
 
 body
 	font-family: $base-font, sans-serif
-	font-size: 18px
-	line-height: 30px
+	font-size: 17px
+	line-height: 22px
 
 h1, h2
-	text-align: center
 	font-family: $head-font, serif
 
 p
-	margin-bottom: 25px
+	margin-bottom: 20px
 
+iframe
+	width 90%
+	
 #oscars
 	width: 100%
-	height: 620px
+	height: 540px
 
 .lead
 	text-align: center
@@ -30,6 +32,7 @@ p
 
 .btn
 	margin-bottom: 10px
+
 	
 .main
 	background-color: #E6E6E6
@@ -48,7 +51,45 @@ body img
 #hello
 	text-align: center
 
+#myPic
+	max-width: 200px
+	margin: auto
+
+hr   
+	border: 0
+	border-top: 1px solid #ddd
+	margin-top: 20px
+	margin-bottom: 8px
+
+.headhr
+	border-top: 1px solid #333
+	margin-bottom: 30px
+
+#silvamob
+	display: none
+
+#subhead
+	margin-top: 0px
+
+#me
+	padding-left: 0px
+	margin-bottom: -18px
+
+@media (max-width: 590px)
+	h1
+		font-size: 25px
+	#subhead
+		font-size: 22px
 
 
+@media (max-width: 390px)
+	h1
+		font-size: 22px
+	#subhead
+		font-size: 18px
 
-	
+@media (max-width: 460px)
+	#silva
+		display: none
+	#silvamob
+		display: inline-block
